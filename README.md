@@ -26,7 +26,9 @@ Design and implement a SPA for the defined project.
 
  
 To run the application please make following changes into web.config and database.
+
 Step 1. – Create the table on MS Sql database.
+
 CREATE TABLE [dbo].[Contact](
 	[ContactId] [int] IDENTITY(1,1) NOT NULL,
 	[FirstName] [varchar](50) NULL,
@@ -39,20 +41,22 @@ CREATE TABLE [dbo].[Contact](
 	[ContactId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
+
+
 Step 2. – Change the web.config connection string.
 Point to your database and refresh the solution. 
 
 
-	Base on requirement I have created asp.net mvc. In application I have allow user to Create, Update, Delete and View List of Contacts.
+- 	Base on requirement I have created asp.net mvc. In application I have allow user to Create, Update, Delete and View List of Contacts.
 
-	CURD operation base on web api call. Where on web api I have use Repository pattern. 
+- 	CURD operation base on web api call. Where on web api I have use Repository pattern. 
 
-	We can add api validation base on web api header. We can pass the token and then validate that token. We can use windows authorize method.
+- 	We can add api validation base on web api header. We can pass the token and then validate that token. We can use windows authorize method.
 
-	Validation – We can use java script and class validation base on our requirement. 
+- 	Validation – We can use java script and class validation base on our requirement. 
 
-	I can use angular js or other frame work to build this application.
+- 	I can use angular js or other frame work to build this application.
 
-	There is so many things I can do on this application, add bootstrap so it will work on all device. 
+- 	There is so many things I can do on this application, add bootstrap so it will work on all device. 
 
-	Due to other work and busy schedule I have spends few hours only.
+- 	Due to other work and busy schedule I have spends few hours only.
